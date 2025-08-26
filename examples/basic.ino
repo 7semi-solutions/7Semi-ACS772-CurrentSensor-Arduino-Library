@@ -1,6 +1,6 @@
-#include "ACS772_CurrentSensor.h"
+#include <ACS772_CurrentSensor.h>
 
-ACS772_CurrentSensor sensor(A0);
+ACS772_CurrentSensor sensor(A0); // Default 40mV/A sensitivity, 2.5V Vref
 
 void setup() {
   Serial.begin(115200);
@@ -13,4 +13,3 @@ void loop() {
   Serial.println(" A");
   delay(500);
 }
-
