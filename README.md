@@ -1,8 +1,8 @@
 # 7Semi ACS772 Current Sensor Arduino Library
 
-[![Arduino](https://img.shields.io/badge/Arduino-Library-blue?logo=arduino)](https://www.arduino.cc/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/7semi-solutions/7Semi-ACS772-CurrentSensor-Arduino-Library)](https://github.com/7semi-solutions/7Semi-ACS772-CurrentSensor-Arduino-Library/releases)
+![Arduino](https://img.shields.io/badge/platform-arduino-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
 An Arduino library for interfacing with the **ACS772 Hall-effect Current Sensor**.  
 This library reads the analog voltage output of the ACS772 and converts it into the measured current using the configured sensitivity.
