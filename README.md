@@ -9,7 +9,7 @@ This library reads the analog voltage output of the ACS772 and converts it into 
 
 ---
 
-## ✨ Features
+1. Features
 - Supports **ACS772 Hall-effect current sensors** (5A to 200A variants).  
 - Converts **analog voltage to current (A)**.  
 - Simple **initialization and reading API**.  
@@ -18,7 +18,7 @@ This library reads the analog voltage output of the ACS772 and converts it into 
 
 ---
 
-## 📦 Installation
+2. Installation
 
 ### Arduino IDE
 1. Download this repository as a ZIP file.  
@@ -28,9 +28,4 @@ This library reads the analog voltage output of the ACS772 and converts it into 
 
 The library will now appear under **File → Examples → ACS772_CurrentSensor**.
 
-### PlatformIO
-Add this repository to your `platformio.ini`:
 
-```ini
-lib_deps = 
-    https://github.com/7semi-solutions/7Semi-ACS772-CurrentSensor-Arduino-Library
